@@ -32,12 +32,13 @@ const productCard =document.createElement ("div");
 productCard.classList.add("product-card");
 productCard.innerHTML = `
 
-<p>${item.description}</p>
 <img src=${item.image} alt=${item.title}/>
 <h2>${item.title}</h2>
-<h3>${item.price}</h3>
+<p>${item.description}</p>
+<h3>Price: ${item.price}</h3>
 <h2>${item.category}</h4>
-<button class= "Delete"> </button>
+
+<button class="delete"> Delete </botton>
 
 `;
 container.appendChild(productCard);
