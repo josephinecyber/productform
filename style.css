@@ -33,7 +33,7 @@
 
     #add-button, #reset-button{
       padding: 10px 15px;
-      background-color: gitgb(44, 62, 141);
+      background-color:blue;
       color: white;
       border: none;
       border-radius: 4px;
@@ -68,13 +68,12 @@
 }
 
 .product-card img {
-  background-image: url();
   width: 200px;
   height: 300px;
 }
 
 #hero {
-  background-image: url(./asset/shop.avif);
+  background-image: url;
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
